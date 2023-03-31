@@ -1,0 +1,18 @@
+str=("----Welcome to my simple calculator----")
+print(str.center(50))
+
+num1=int(input("Enter the first number:- "))
+num2=int(input("Enter the second number:- "))
+print("Select an operator to perform:")
+operator=input("select one operator(+,-,*,/):- ")
+if(operator=="+"):
+    print("The SUM of two number is:- ",(num1+num2))
+elif(operator=="-"):
+    print("The SUBTRACTION of two number is:- ",(num1-num2))
+elif(operator=="*"):
+    print("The MULTIPLY of two number is:- ",(num1*num2))
+elif(operator=="/"):
+    print("The DIVISION of two number is:- ",(num1/num2))
+else:
+    print("ERROR!!")
+print("thank you ")
